@@ -1,0 +1,209 @@
+*,
+::after,
+::before{
+  box-sizing: content-box;   
+}
+
+
+:root{
+    margin: unset;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #709b90;
+    --gap-size: 1.5rem;
+}
+
+header{
+    color:wheat
+}
+
+ .stack > * + *{
+    margin-block-start: 1.5em;
+} */
+
+.container {
+    max-inline-size: 1080px;
+    margin-inline: auto;
+}
+
+nav{
+    background-color: #5f4b44;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+div a:not(.cta-button){
+    display: inline-block; 
+    margin-inline-end: 1.5rem; 
+}
+
+div a{
+    background-color: #cc6b5a;
+    padding: 0.5em 1em;
+    
+    color: white;
+    /* margin: auto; */
+    text-decoration: none;
+}
+
+
+.site-nav {
+    display: flex;
+    /* padding: 0.5rem; */
+    list-style-type: none;
+    gap: var(--gap-size);
+    justify-content: flex-start;
+   
+}
+.site-nav > li > a {
+    display: block; 
+    background-color: #cc6b5a;
+    padding: 0.5em 1em; 
+    color: white;
+    /* margin: auto; */
+    text-decoration: none;
+    }
+
+.nav-right{
+    margin-inline-start: auto;
+}
+
+.tile{
+    padding: 2.2em;
+    background-color: white;
+}
+
+.flex{
+    display: flex;
+    gap: var(--gap-size);
+    margin-block-start: 10px;
+}
+
+.column-main{
+    flex: 2;
+    display: flex;
+    gap: var(--gap-size);
+} 
+
+.column-sidebar{
+    flex: 1;
+    display: flex;
+    gap:  var(--gap-size);
+    flex-direction: column;
+}
+
+
+/* label{
+    display: block;
+} */
+
+input{
+    border: 0;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid burlywood;
+    margin-top: 8px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.31em;
+}
+
+h3{
+    text-align: right;
+    color:grey;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+button{
+    font-size: 16px;
+    background-color: white;
+    padding: 0.25em 1em;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 5px solid brown;
+}
+
+.centered{
+    text-align: center;
+}
+
+.cost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0.7;
+}
+
+.cost-currency{
+    font-size: 2em;
+    margin: 2px;
+}
+
+.cost-dollars{
+    font-size: 4em;
+
+}
+
+.cost-cents{
+    align-self: start;
+    font-size: 0.9em;
+
+}
+
+.cta-button{
+    display: block;
+    padding:  0.5em 1em;
+    text-align: center;
+}
+
+.middle{
+    margin-inline: auto;
+}
+/* form p{
+    display:flex;
+    flex-direction: column;
+} */
+/* ul{
+    background-color: #6e1717;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color:whitesmoke; */
+    /* display: inline-block;  }*/
+
+/* span{
+    display: inline-block;
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+} */
+/* ul{
+    display: flex;
+    /* justify-content: space-between; */
+
+/* .link{
+    display: inline-block;
+} */
+/* li{
+    display: inline-block;
+    background-color: rgb(202, 16, 16);
+    padding: 0.5em 0.3em;
+    margin: 0.4em 0.2em;
+    
+} 
+.container{
+    margin: 10px 4em;   
+border-color:red;
+border-size:2px;
+    }
+
+.white{
+    background-color: whitesmoke;
+    margin-top: 20px;
+}  */
+
